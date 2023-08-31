@@ -1,6 +1,6 @@
 import React from "react";
 interface Props {
-  text: string;
+  text?: string;
   onClick: () => void;
   color?: "primary" | "secondary"; // ? -> Tells us that it is optional and | -> or statement to tell us that it can have primary or secondary only
 }
